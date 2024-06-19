@@ -1,0 +1,35 @@
+.search-box, .users-box{
+    width: 70%;
+    margin: 50px auto;
+    border: 2px solid black;
+    padding: 10px;
+    overflow: hidden ;
+}
+
+.hello{
+    display: block;
+    text-align: center;
+    /* width: 100%; */
+}
+
+.search-box > input{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.search-box > button{
+    font-size: 24px;
+    display: block;
+    margin: 10px auto;
+}
+
+.user-item{
+    width: 25%;
+    border: 1px solid blue;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    display: block;
+}
